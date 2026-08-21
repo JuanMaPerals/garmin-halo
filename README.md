@@ -181,6 +181,10 @@ With WSL2 + WSLg on Windows, X11 forwarding works automatically. The simulator G
 
 Without WSLg, install [VcXsrv](https://sourceforge.net/projects/vcxsrv/) and set `DISPLAY=host.docker.internal:0`.
 
+## Disclaimer
+
+This is an independent, personal hobby project. It is not affiliated with, endorsed by, or sponsored by Garmin Ltd., its subsidiaries, or Brilliant Labs Inc. All product names, trademarks, and registered trademarks are the property of their respective owners and are used for identification purposes only. This software is provided as-is under the MIT license without any warranty.
+
 ## License
 
 [MIT](LICENSE)
