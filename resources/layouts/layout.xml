@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <layout id="MainLayout">
+        <label id="StatusLabel" x="center" y="center" text="@Strings.Status_Disconnected" font="Graphics.FONT_TINY" color="Graphics.COLOR_WHITE"/>
+    </layout>
+</resources>

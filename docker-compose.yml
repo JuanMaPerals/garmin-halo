@@ -1,0 +1,19 @@
+services:
+  connectiq:
+    build:
+      context: .devcontainer
+      args:
+        UID: ${UID:-1000}
+        GID: ${GID:-1000}
+    volumes:
+      - ./:/home/ciq/src
+      - garmin-devices:/home/ciq/.Garmin/ConnectIQ/Devices
+    environment:
+      - DISPLAY=${DISPLAY:-:0}
+    # X11 forwarding for simulator GUI (WSLg on Windows provides :0)
+    network_mode: host
+    stdin_open: true
+    tty: true
+
+volumes:
+  garmin-devices:

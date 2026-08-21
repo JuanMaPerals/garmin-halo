@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <strings>
+        <string id="AppName">Halo Bridge</string>
+        <string id="Status_Disconnected">DISCONNECTED</string>
+        <string id="Status_Scanning">SCANNING</string>
+        <string id="Status_Connecting">CONNECTING</string>
+        <string id="Status_Connected">CONNECTED</string>
+        <string id="Status_Error">ERROR</string>
+    </strings>
+</resources>

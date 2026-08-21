@@ -1,0 +1,14 @@
+bin/
+mockups/
+.Garmin/
+__pycache__/
+*.pyc
+.pytest_cache/
+developer.der
+developer.crt
+developer.pem
+resources/drawables/launcher_icon.png
+.git
+.gitignore
+*.prg
+*.iq

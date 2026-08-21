@@ -1,0 +1,14 @@
+{
+  "name": "Connect IQ Dev",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "connectiq",
+  "workspaceFolder": "/home/ciq/src",
+  "customizations": {
+    "vscode": {
+      "extensions": ["garmin.monkey-c"],
+      "settings": {
+        "monkeyc.sdkPath": "/home/ciq/.Garmin/ConnectIQ/Sdks/current"
+      }
+    }
+  }
+}

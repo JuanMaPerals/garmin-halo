@@ -1,0 +1,31 @@
+# Binaries
+bin/
+*.prg
+*.iq
+
+# Developer keys (generated, never commit)
+developer.der
+developer.crt
+developer.pem
+
+# Generated launcher icon
+resources/drawables/launcher_icon.png
+
+# Generated mockup screenshots
+mockups/
+
+# Garmin SDK (installed in Docker volume)
+.Garmin/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
